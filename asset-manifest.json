@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactweb2/static/css/main.8027dd07.css",
+    "main.js": "/reactweb2/static/js/main.37c40efa.js",
+    "static/media/IropkeBatangM.otf": "/reactweb2/static/media/IropkeBatangM.7f75e2717e97c7491206.otf",
+    "static/media/remixicon.woff2": "/reactweb2/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "index.html": "/reactweb2/index.html",
+    "main.8027dd07.css.map": "/reactweb2/static/css/main.8027dd07.css.map",
+    "main.37c40efa.js.map": "/reactweb2/static/js/main.37c40efa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8027dd07.css",
+    "static/js/main.37c40efa.js"
+  ]
+}
