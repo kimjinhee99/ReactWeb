@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { useEffect, useState, useRef } from 'react';
 
 function MainIntro(props) {
-
+  const path = process.env.PUBLIC_URL;
 
   const Main = styled.div`
     position: relative;
@@ -230,11 +230,12 @@ function MainIntro(props) {
     }
   `;
 
+
   return (
     <Main>
       <div className="main_intro">
         <article className='main_intro1'>
-          <img src={"./images/01.jpg"} alt="intro1" />
+          <img src={path + "/images/01.jpg"} alt="intro1" />
           <div className='intro_txt_box'>
             <h1>branding</h1>
             <p>삶 전체에 있어 일이란 큰 비중을 차지한다. 진정으로 만족스러운 삶을 살기 위해서는 위대한 작업이라고 납득할 수 있는 일을 해야 한다. 진정으로 만족스러운 삶을 살기 위해서는 위대한 작업이라고 납득할 수 있는 일을 해야 한다.
@@ -251,10 +252,10 @@ function MainIntro(props) {
         <article className='main_intro2'>
           <div className='main_intro_grid'>
             <div className='img_grid'>
-              <a href="#"><img src={"./images/02-1.jpg"} alt="grid1" /></a>
-              <a href="#"> <img src={"./images/02-2.jpg"} alt="grid2" /></a>
-              <a href="#"><img src={"./images/02-3.jpg"} alt="grid3" /></a>
-              <a href="#"><img src={"./images/02-4.jpg"} alt="grid4" /></a>
+              <a href="#"><img src={path + "/images/02-1.jpg"} alt="grid1" /></a>
+              <a href="#"> <img src={path + "/images/02-2.jpg"} alt="grid2" /></a>
+              <a href="#"><img src={path + "/images/02-3.jpg"} alt="grid3" /></a>
+              <a href="#"><img src={path + "/images/02-4.jpg"} alt="grid4" /></a>
             </div> 
           </div>
           <div className='intro_txt_box'>
@@ -271,7 +272,7 @@ function MainIntro(props) {
         </article>
 
         <article className='main_intro3'>
-          <img src={"./images/03.jpg"} alt="intro3" />
+          <img src={path + "/images/03.jpg"} alt="intro3" />
           <div className='intro_txt_box'>
             <h1>branding</h1>
             <p>삶 전체에 있어 일이란 큰 비중을 차지한다. 진정으로 만족스러운 삶을 살기 위해서는 위대한 작업이라고 납득할 수 있는 일을 해야 한다. 진정으로 만족스러운 삶을 살기 위해서는 위대한 작업이라고 납득할 수 있는 일을 해야 한다.

@@ -130,6 +130,8 @@ const Nav = styled.div`
   }
 `;
 
+const path = process.env.PUBLIC_URL;
+
 function NavMenu(props) {
 
 // 스크롤 이벤트
@@ -146,8 +148,8 @@ useEffect(() => {
     <BrowserRouter>
     <Nav className={scrollPosition > 100 ? "scroll-text" : "scrolled-text"}>
       <div className="container">
-        <h1><a href="#"><img src={"./images/logo-dark.png"} alt="white_logo" /></a></h1>
-        <h2><a href="#"><img src={"./images/logo.png"} alt="black_logo" /></a></h2>
+        <h1><a href="#"><img src={path + "/images/logo-dark.png"} alt="white_logo" /></a></h1>
+        <h2><a href="#"><img src={path + "/images/logo.png"} alt="black_logo" /></a></h2>
       
         <ul className="gnb">
           <li>

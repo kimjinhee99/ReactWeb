@@ -141,6 +141,9 @@ const ServiceMain = styled.div`
 `;
 
 function MainService(props) {
+
+  const path = process.env.PUBLIC_URL;
+
   return (
     <ServiceMain>
       <h1>service</h1>
@@ -163,7 +166,7 @@ function MainService(props) {
             <p>진정으로 만족스러운 삶을 살기 위해서는 위대한 작업이라고 납득할 수 있는 일을 해야 한다.</p>
           </div>
         </div>
-        <img src={"./images/camera.png"} alt="camera" />
+        <img src={path +"/images/camera.png"} alt="camera" />
         <div className='colRight'>
           <div className='serviceTxt'>
             <h1>디자인</h1>

@@ -1,6 +1,10 @@
 import MainContentsItem from './MainContentsItem';
 import styled from 'styled-components';
 
+import contentImg1 from '../assets/images/04-1.jpg';
+import contentImg2 from '../assets/images/04-2.jpg';
+import contentImg3 from '../assets/images/04-3.jpg';
+
 const MainContents = styled.div`
   font-family: 'IropkeBatang';
   padding: 144px;
@@ -70,13 +74,13 @@ const MainContents = styled.div`
       box-sizing: border-box;
     }
     &:nth-child(1) .gridInnerImage {
-      background: url(./images/04-1.jpg) no-repeat 50% 50% / cover;
+      background: url(${contentImg1}) no-repeat 50% 50% / cover;
     }
     &:nth-child(2) .gridInnerImage {
-      background: url(./images/04-2.jpg) no-repeat 50% 50% / cover;
+      background: url(${contentImg2}) no-repeat 50% 50% / cover;
     }
     &:nth-child(3) .gridInnerImage {
-      background: url(./images/04-3.jpg) no-repeat 50% 50% / cover;
+      background: url(${contentImg3}) no-repeat 50% 50% / cover;
     }
     .bgOverlay {
         position: absolute;

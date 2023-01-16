@@ -8,6 +8,10 @@ import "swiper/css/navigation";
 
 import { Pagination, Autoplay, Navigation } from "swiper";
 
+import bannerImg01 from '../assets/images/banner01.jpg';
+import bannerImg02 from '../assets/images/banner02.jpg';
+
+const path = process.env.PUBLIC_URL;
 
 const Header = styled.div`
   position: relative;
@@ -15,14 +19,14 @@ const Header = styled.div`
   z-index: 99;
 
     .bannerImg01 {
-      background: url(./images/banner01.jpg) no-repeat 50% / cover;
+      background: url(${bannerImg01}), no-repeat 50% / cover;
       height: 100vh;
       z-index: -1;
       padding-right: 12px;
       padding-left: 12px;
     }
     .bannerImg02 {
-      background: url(./images/banner02.jpg) no-repeat 50% / cover;
+      background: url(${bannerImg02}) no-repeat 50% / cover;
       height: 100vh;
       z-index: -1;
       padding-right: 12px;
