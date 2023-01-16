@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactweb2/static/css/main.8027dd07.css",
-    "main.js": "/reactweb2/static/js/main.8e764b33.js",
+    "main.js": "/reactweb2/static/js/main.56fa0ffe.js",
     "static/media/IropkeBatangM.otf": "/reactweb2/static/media/IropkeBatangM.7f75e2717e97c7491206.otf",
     "static/media/banner01.jpg": "/reactweb2/static/media/banner01.1f74a32c3ab109635f0d.jpg",
     "static/media/04-2.jpg": "/reactweb2/static/media/04-2.4853aa26d5c447f7d7ed.jpg",
@@ -11,10 +11,10 @@
     "static/media/remixicon.woff2": "/reactweb2/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "index.html": "/reactweb2/index.html",
     "main.8027dd07.css.map": "/reactweb2/static/css/main.8027dd07.css.map",
-    "main.8e764b33.js.map": "/reactweb2/static/js/main.8e764b33.js.map"
+    "main.56fa0ffe.js.map": "/reactweb2/static/js/main.56fa0ffe.js.map"
   },
   "entrypoints": [
     "static/css/main.8027dd07.css",
-    "static/js/main.8e764b33.js"
+    "static/js/main.56fa0ffe.js"
   ]
 }
