@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/* IropkeBatangM.woff */
+@font-face {
+  font-family: 'IropkeBatang';
+  src: url(./fonts/IropkeBatangM.otf) format("opentype");
+  font-weight: 100;
+}
+@font-face {
+font-family: 'IropkeBatang';
+src: url(./fonts/IropkeBatangM.otf) format("opentype");
+font-weight: 200;
+}
+@font-face {
+font-family: 'IropkeBatang';
+src: url(./fonts/IropkeBatangM.otf) format("opentype");
+font-weight: 300;
+}
+@font-face {
+font-family: 'IropkeBatang';
+src: url(./fonts/IropkeBatangM.otf) format("opentype");
+font-weight: 400;
+}
+@font-face {
+font-family: 'IropkeBatang';
+src: url(./fonts/IropkeBatangM.otf) format("opentype");
+font-weight: 500;
+}
+@font-face {
+font-family: 'IropkeBatang';
+src: url(./fonts/IropkeBatangM.otf) format("opentype");
+font-weight: 600;
+}
+@font-face {
+font-family: 'IropkeBatang';
+src: url(./fonts/IropkeBatangM.otf) format("opentype");
+font-weight: 700;
+}
+
+
+/* remixicon.woff2 */
+@font-face {
+  font-family: 'remixicon';
+  src: url(./fonts/remixicon.woff2) format(woff2);
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'remixicon';
+  src: url(./fonts/remixicon.woff2) format(woff2);
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'remixicon';
+  src: url(./fonts/remixicon.woff2) format(woff2);
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'remixicon';
+  src: url(./fonts/remixicon.woff2) format(woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'remixicon';
+  src: url(./fonts/remixicon.woff2) format(woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'remixicon';
+  src: url(./fonts/remixicon.woff2) format(woff2);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'remixicon';
+  src: url(./fonts/remixicon.woff2) format(woff2);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
