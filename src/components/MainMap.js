@@ -15,11 +15,7 @@ const Map = styled.div`
     align-items: stretch;
 
     .iconBox {
-<<<<<<< HEAD
       padding: 6vw;
-=======
-      padding: 144px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
       width: 25%;
       position: relative;
       display: flex;
@@ -40,7 +36,6 @@ const Map = styled.div`
       }
       span {
         display: block;
-<<<<<<< HEAD
         width: 7.5vw; height: 6vw;
         color: #fe6666;
         margin-bottom: 1.5vw;
@@ -48,15 +43,6 @@ const Map = styled.div`
       }
       .symbolMapIcon {
         font-size: 4.5vw;
-=======
-        width: 7.5rem; height: 6rem;
-        color: #fe6666;
-        margin-bottom: 1.5rem;
-        padding: 0 0.75rem;
-      }
-      .symbolMapIcon {
-        font-size: 4.5rem;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
         font-weight: bold;
       }
       .mapIconTxt {
@@ -67,26 +53,15 @@ const Map = styled.div`
         h1 {
           font-weight: 600;
           color: #333;
-<<<<<<< HEAD
           font-size: 1.8vw;
-=======
-          font-size: 28px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
           line-height: 1.5;
           text-transform: uppercase;
         }
         p {
-<<<<<<< HEAD
           font-size: 1.2vw;
           font-weight: 400;
           line-height: 1.8;
           margin-top: 0.3vw;
-=======
-          font-size: 18px;
-          font-weight: 400;
-          line-height: 1.8;
-          margin-top: 0.5rem;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
           text-transform: capitalize;
         }
       }

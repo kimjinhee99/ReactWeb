@@ -4,13 +4,8 @@ const FooterContents = styled.div`
   background-color: #282828;
   position: relative;
   color: rgba(255, 255, 255, 0.4);
-<<<<<<< HEAD
   padding: 3vw 0;
   font-size: 0.9vw;
-=======
-  padding: 40px 0;
-  font-size: 0.875rem;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
   line-height: 1.8;
   text-align: center;
 
@@ -22,17 +17,10 @@ const FooterContents = styled.div`
   
   .txtCenter {
     text-align: left;
-<<<<<<< HEAD
     margin-left: 7.5vw;
   }
   p {
     margin-right: 7.5vw;
-=======
-    margin-left: 191px;
-  }
-  p {
-    margin-right: 191px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
   }
 `;
 

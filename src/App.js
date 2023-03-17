@@ -1,5 +1,4 @@
 import Main from "./Main";
-<<<<<<< HEAD
 import styled from "styled-components";
 
 import {BrowserRouter, Link, Route, Routes,useNavigate } from 'react-router-dom';
@@ -15,10 +14,6 @@ import NavMenu from "./components/NavMenu";
 
 function App() {
 
-=======
-
-function App() {
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
   return (
     <>
       <Main />

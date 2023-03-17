@@ -10,10 +10,6 @@ import { Pagination, Autoplay, Navigation } from "swiper";
 
 import bannerImg01 from '../assets/images/banner01.jpg';
 import bannerImg02 from '../assets/images/banner02.jpg';
-<<<<<<< HEAD
-=======
-
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
 const path = process.env.PUBLIC_URL;
 
 const Header = styled.div`
@@ -24,7 +20,6 @@ const Header = styled.div`
     .bannerImg01 {
       background: url(${bannerImg01}), no-repeat 50% / cover;
       height: 100vh;
-<<<<<<< HEAD
       z-index: 1;
       position: relative;
 
@@ -36,16 +31,10 @@ const Header = styled.div`
         top: 0;
         z-index: -1;
       }
-=======
-      z-index: -1;
-      padding-right: 12px;
-      padding-left: 12px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     }
     .bannerImg02 {
       background: url(${bannerImg02}) no-repeat 50% / cover;
       height: 100vh;
-<<<<<<< HEAD
       z-index: 1;
       position: relative;
 
@@ -60,11 +49,6 @@ const Header = styled.div`
       .bannerTxt {
         padding-right: 10vw;
       }
-=======
-      z-index: -1;
-      padding-right: 12px;
-      padding-left: 12px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     }
     .bannerTxt {
       height: 100%;
@@ -76,18 +60,12 @@ const Header = styled.div`
       flex-flow: column;
       justify-content: center;
       margin: 0 auto;
-<<<<<<< HEAD
       z-index: 99;
-=======
-      max-width: 600px;
-      z-index: 20;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
       box-sizing: border-box;
     }
     .bannerImg02 {
       display: flex;
       justify-content: flex-end;
-<<<<<<< HEAD
     }
     .bannerTxt h1 {
       font-size: 3.7vw;
@@ -118,14 +96,10 @@ const Header = styled.div`
         transition: 1.3s;
         transform: translateY(-5vw);
         }
-=======
-      padding-right: 192px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     }
     .bannerTxt02 {
       text-align: left;
       margin: 0;
-<<<<<<< HEAD
       h1 {
         opacity: 0;
         transition: 1.3s;
@@ -158,47 +132,11 @@ const Header = styled.div`
       transition: all .3s ease-in-out;
     }
     .bannerBtn a:hover {
-=======
-    }
-    .bannerTxt h1 {
-      font-size: 56px;
-      font-weight: 400;
-      letter-spacing: 2px;
-      line-height: 1.25;
-    }
-    .bannerTxt p {
-      font-size: 24px;
-      margin-top: 30px;
-      margin-bottom: 10px;
-      line-height: 1.6;
-    }
-    .bannerBtn {
-      margin-top: 3rem;
-      box-sizing: border-box;
-    }
-    .bannerBtn a {
-      border: 2px solid #fff;
-      font-size: 1rem;
-      font-weight: 300;
-      line-height: 30px;
-      border-radius: 3px;
-      padding: 10px 26px;
-      padding-right: 3rem;
-      padding-left: 3rem;
-      text-transform: uppercase;
-      transition: all .3s ease-in-out;
-    }
-    .bannerBtn:hover a {
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
       background-color: #fff;
       color: #333;
     }
     .swiper-button-prev {
-<<<<<<< HEAD
       width: 3.5vw; height: 3.5vw;
-=======
-      width: 52px; height: 52px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
       position: absolute;
       top: 50%; left: 0;
       cursor: pointer;
@@ -213,17 +151,10 @@ const Header = styled.div`
       transition: all .3s ease-in-out;
     }
     .swiper-button-prev::after {
-<<<<<<< HEAD
       font-size: 1.3vw;
     }
     .swiper-button-next {
       width: 3.5vw; height: 3.5vw;
-=======
-      font-size: 20px;
-    }
-    .swiper-button-next {
-      width: 52px; height: 52px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
       position: absolute;
       top: 50%; right: 0;
       cursor: pointer;
@@ -238,11 +169,7 @@ const Header = styled.div`
       transition: all .3s ease-in-out;
     }
     .swiper-button-next::after {
-<<<<<<< HEAD
       font-size: 1.3vw;
-=======
-      font-size: 20px;
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     }
     .swiper-button-prev:hover {
       background-color: rgba(0,0,0,0.6);
@@ -250,7 +177,6 @@ const Header = styled.div`
     .swiper-button-next:hover {
       background-color: rgba(0,0,0,0.6);
     }
-<<<<<<< HEAD
     .swiper-slide.swiper-slide-active {
       .bannerTxt h1 {
         opacity: 1;
@@ -268,8 +194,6 @@ const Header = styled.div`
         transform: translateY(0);
       }
     }
-=======
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
 `;
 
 // const bannerList = [
@@ -283,10 +207,6 @@ function BannerSwiper() {
   return (
       <Header>
         <Swiper
-<<<<<<< HEAD
-=======
-          cssMode={true}
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
           loop={true}
           autoplay={{
             delay: 6000,
@@ -297,10 +217,7 @@ function BannerSwiper() {
           > 
             <SwiperSlide>
               <div className="bannerImg01">
-<<<<<<< HEAD
                 <div className="bannerBg"></div>
-=======
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
                 <div className="bannerTxt bannerTxt01">
                   <h1>당신이 원한다면<br />
                       당신을 날수도 있다.<br />
@@ -315,10 +232,7 @@ function BannerSwiper() {
               </SwiperSlide>
               <SwiperSlide>
               <div className="bannerImg02">
-<<<<<<< HEAD
                 <div className="bannerBg"></div>
-=======
->>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
                 <div className="bannerTxt bannerTxt02">
                   <h1>누군가를 위해<br />
                       당신의 삶을<br />
