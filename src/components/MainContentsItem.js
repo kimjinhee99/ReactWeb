@@ -17,7 +17,10 @@ function MainContentsItem({item}) {
               <span><FaArrowRight /></span>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="imageBg"></div>
+=======
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
         </div>
       </div>
     </div>

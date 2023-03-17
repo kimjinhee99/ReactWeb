@@ -9,7 +9,10 @@ import Element from "./Element";
 import Shop from "./Shop";
 import { useEffect, useState } from "react";
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
 const Nav = styled.div`
   font-family: 'IropkeBatang';
   background-color: transparent;
@@ -34,7 +37,11 @@ const Nav = styled.div`
   }
 
   .container {
+<<<<<<< HEAD
     width: 85%; height: 5vw;
+=======
+    width: 80%; height: 80px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     margin: 0 auto;
 
     display: flex;
@@ -43,16 +50,28 @@ const Nav = styled.div`
     position: relative;
   }
   .container h1 {
+<<<<<<< HEAD
     margin-right: 2.8vw;
+=======
+    margin-right: 3rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     position: relative;
     a{
       display: flex;
       align-items: center;
+<<<<<<< HEAD
       height: 2vw;
     }
   }
   .container h1 img {
     height: 2.2vw;
+=======
+      height: 33px;
+    }
+  }
+  .container h1 img {
+    height: 80px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     display: block;
     vertical-align: middle;
     max-width: 100%;
@@ -60,16 +79,28 @@ const Nav = styled.div`
   }
   .container h2 {
     display: none;
+<<<<<<< HEAD
     margin-right: 2.8vw;
+=======
+    margin-right: 3rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     position: relative;
     a {
       display: flex;
       align-items: center;
+<<<<<<< HEAD
       height: 2vw;
     }
   }
   .container h2 img {
     height: 2.2vw;
+=======
+      height: 33px;
+    }
+  }
+  .container h2 img {
+    height: 80px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     vertical-align: middle;
     max-width: 100%;
     max-height: 100%;
@@ -84,21 +115,33 @@ const Nav = styled.div`
     position: relative;
   }
   .gnb li a, .registory li a {
+<<<<<<< HEAD
     font-size: 1.2vw;
+=======
+    font-size: 1.1rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     font-weight: 500;
     color: #f7f7f7;
     line-height: 22px;
     letter-spacing: 1px;
     text-transform: uppercase;
     display: block;
+<<<<<<< HEAD
     padding: 1vw;
+=======
+    padding: 29px 15px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
   }
   .gnb li a:hover, .registory li a:hover {
     background-color: #fe6666;
   }
   .sub_menu {
     display: none;
+<<<<<<< HEAD
     width: 14vw;
+=======
+    width: 220px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     position: absolute;
     top: 100%; left: 0;
     background-color: #fff;
@@ -108,15 +151,26 @@ const Nav = styled.div`
   .sub_menu li a {
     display: block;
     color: #666;
+<<<<<<< HEAD
     padding-top: 1vw;
     padding-bottom: 1vw;
     font-weight: 500;
     font-size: 1.1vw;
+=======
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 1rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     transition: all .2s ease-in-out;
   }
   .sub_menu li a:hover {
     background-color: #f9f9f9;
+<<<<<<< HEAD
     padding-left: 1vw;
+=======
+    padding-left: 15px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     color: #fe6666;
   }
   .gnb li:hover .sub_menu {
@@ -146,7 +200,10 @@ useEffect(() => {
 },[]);
 
   return (
+<<<<<<< HEAD
     <>
+=======
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
     <BrowserRouter>
     <Nav className={scrollPosition > 100 ? "scroll-text" : "scrolled-text"}>
       <div className="container">
@@ -225,7 +282,11 @@ useEffect(() => {
     </Nav>
 
     {/* 화면에 보이는 영역 */}
+<<<<<<< HEAD
     <Routes>
+=======
+    {/* <Routes>
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
       <Route path="/about" element={ <About />} />
       <Route path="/service" element={<Service />} />
       <Route path="/portfolio" element={<Portfolio />} />
@@ -233,9 +294,14 @@ useEffect(() => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/element" element={<Element />} />
       <Route path="/shop" element={<Shop />} />
+<<<<<<< HEAD
     </Routes>
     </BrowserRouter>
     </>
+=======
+    </Routes> */}
+    </BrowserRouter>
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
   );
 }
 

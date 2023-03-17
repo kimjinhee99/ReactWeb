@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 import { FaArrowRight } from "react-icons/fa";
+<<<<<<< HEAD
+=======
+import { useEffect, useState, useRef } from 'react';
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
 
 function MainIntro(props) {
   const path = process.env.PUBLIC_URL;
@@ -10,11 +14,19 @@ function MainIntro(props) {
     font-family: 'IropkeBatang';
 
     .main_intro {
+<<<<<<< HEAD
       padding: 8vw;
 
       .main_intro1{
         padding-right: 0.5vw;
         padding-left: 0.5vw;
+=======
+      padding: 144px;
+
+      .main_intro1 {
+        padding-right: 12px;
+        padding-left: 12px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
@@ -22,12 +34,18 @@ function MainIntro(props) {
 
         img {
           max-width: 50%;
+<<<<<<< HEAD
           padding-right: 0.5vw;
           padding-left: 0.5vw;
+=======
+          padding-right: 12px;
+          padding-left: 12px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
         }
         .intro_txt_box {
           text-align: left;
           width: 41.66666667%;
+<<<<<<< HEAD
           padding: 3vw;
           box-sizing: border-box;
 
@@ -43,6 +61,23 @@ function MainIntro(props) {
             font-size: 1.2vw;
             line-height: 1.8;
             margin-bottom: 1vw;
+=======
+          padding: 3rem;
+          box-sizing: border-box;
+
+          h1 {
+            font-size: 3.5rem;
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+          }
+          p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
           }
         }
       }
@@ -54,13 +89,21 @@ function MainIntro(props) {
         flex-wrap: nowrap;
         flex-direction: row-reverse;
         justify-content: space-between;
+<<<<<<< HEAD
         padding-top: 13vw;
+=======
+        padding-top: 12rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
 
         .main_intro_grid {
           position: relative;
           width: 50%;
           margin: 0;
+<<<<<<< HEAD
           padding: 0 0.5vw 0;
+=======
+          padding: 0 12px 0;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
 
           .img_grid {
             position: relative;
@@ -70,7 +113,11 @@ function MainIntro(props) {
             margin-right: -1px;
             margin-bottom: -2px;
             overflow: hidden;
+<<<<<<< HEAD
             height: 41.5vw;
+=======
+            height: 809px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
 
             a {
               width: 50%; height: auto;
@@ -108,11 +155,16 @@ function MainIntro(props) {
         }
         .intro_txt_box {
           text-align: left;
+<<<<<<< HEAD
           padding: 3.5vw;
+=======
+          padding: 3rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
           width: 41.66666667%;
           box-sizing: border-box;
 
           h1 {
+<<<<<<< HEAD
             font-size: 3.5vw;
             font-family: 'Roboto Flex', sans-serif;
             font-weight: 700;
@@ -124,6 +176,19 @@ function MainIntro(props) {
             font-size: 1.2vw;
             line-height: 1.8;
             margin-bottom: 1vw;
+=======
+            font-size: 3.5rem;
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+          }
+          p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
           }
         }
       }
@@ -134,14 +199,22 @@ function MainIntro(props) {
         align-items: center;
         flex-wrap: nowrap;
         position: relative;
+<<<<<<< HEAD
         padding-top: 13vw;
 
         img {
           width: 40vw;
+=======
+        padding-top: 12rem;
+
+        img {
+          width: 783.5px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
         }
         .intro_txt_box {
           text-align: left;
           width: 41.66666667%;
+<<<<<<< HEAD
           padding: 0 3vw;
           box-sizing: border-box;
 
@@ -157,13 +230,35 @@ function MainIntro(props) {
             font-size: 1.2vw;
             line-height: 1.8;
             margin-bottom: 1vw;
+=======
+          padding: 0 3rem;
+          box-sizing: border-box;
+
+          h1 {
+            font-size: 3.5rem;
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+          }
+          p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
           }
         }
       }
     }
     .main_intro_btn {
+<<<<<<< HEAD
       margin-top: 3vw;
       margin-left: 0.5vw;
+=======
+      margin-top: 3rem;
+      margin-left: 0.5rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
       box-sizing: border-box;
 
       transition: all 0.2s ease-in-out;
@@ -173,14 +268,22 @@ function MainIntro(props) {
         border: 1px solid #444;
         background-color: transparent;
         color: #333;
+<<<<<<< HEAD
         padding: 0.7vw 3vw;
         font-size: 1vw;
+=======
+        padding: 8px 26px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 1rem;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
         line-height: 30px;
         text-align: center;
         position: relative;
         display: inline-block;
         transition: all 0.3s ease;
 
+<<<<<<< HEAD
         &:hover {
           background-color: #444;
           transition: all .3s ease;
@@ -193,6 +296,8 @@ function MainIntro(props) {
           text-shadow: 1px 1px 1px rgb(0, 0, 0 / 20%);
         }
 
+=======
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
         span {
           display: inline-block;
           position: relative;
@@ -203,11 +308,19 @@ function MainIntro(props) {
         }
         .arrowIcon {
           position: absolute;
+<<<<<<< HEAD
           width: 2.5vw; height: 5vw;
           background-color: rgba(0, 0, 0, 0.1);
           transition: all 0.3s ease;
           right: -5vw; top: -1px;
           line-height: 3.7vw;
+=======
+          width: 38px; height: 49px;
+          background-color: rgba(0, 0, 0, 0.1);
+          transition: all 0.3s ease;
+          right: -38px; top: -1px;
+          line-height: 49px;
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
 
           .arrowRight {
             width: 12px;
@@ -217,10 +330,26 @@ function MainIntro(props) {
       span:nth-child(1) {
         transition: all 0.3s ease;
       }
+<<<<<<< HEAD
       
       
     }
     .main_intro_btn a:hover .arrowIcon {
+=======
+      &:hover span:nth-child(1) {
+        transform: translateX(-19px);
+        display: inline-block;
+        position: relative;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0 / 20%);
+      }
+      &:hover a {
+        background-color: #444;
+        transition: all .3s ease;
+      }
+    }
+    .main_intro_btn:hover .arrowIcon {
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
       background-color: rgba(0, 0, 0, 0.1);
       color: #fff;
       text-shadow: 1px 1px 1px rgb(0, 0, 0 / 20%);
@@ -230,10 +359,18 @@ function MainIntro(props) {
     }
   `;
 
+<<<<<<< HEAD
   return (
     <Main>
       <div className="main_intro">
         <article className="main_intro1">
+=======
+
+  return (
+    <Main>
+      <div className="main_intro">
+        <article className='main_intro1'>
+>>>>>>> e58a4d8f5dc3e62ff571b47805b483d853888786
           <img src={path + "/images/01.jpg"} alt="intro1" />
           <div className='intro_txt_box'>
             <h1>branding</h1>
