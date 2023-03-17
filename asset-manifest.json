@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/reactweb2/static/css/main.8027dd07.css",
-    "main.js": "/reactweb2/static/js/main.56fa0ffe.js",
-    "static/media/IropkeBatangM.otf": "/reactweb2/static/media/IropkeBatangM.7f75e2717e97c7491206.otf",
-    "static/media/banner01.jpg": "/reactweb2/static/media/banner01.1f74a32c3ab109635f0d.jpg",
-    "static/media/04-2.jpg": "/reactweb2/static/media/04-2.4853aa26d5c447f7d7ed.jpg",
-    "static/media/04-3.jpg": "/reactweb2/static/media/04-3.61e3b7c4f630df22335f.jpg",
-    "static/media/banner02.jpg": "/reactweb2/static/media/banner02.77e1eaca7ecc74e21936.jpg",
-    "static/media/04-1.jpg": "/reactweb2/static/media/04-1.0eda07bc922c8be94b50.jpg",
-    "static/media/remixicon.woff2": "/reactweb2/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
-    "index.html": "/reactweb2/index.html",
-    "main.8027dd07.css.map": "/reactweb2/static/css/main.8027dd07.css.map",
-    "main.56fa0ffe.js.map": "/reactweb2/static/js/main.56fa0ffe.js.map"
+    "main.css": "/reactweb/static/css/main.c9245e0e.css",
+    "main.js": "/reactweb/static/js/main.0b55e46a.js",
+    "static/media/IropkeBatangM.otf": "/reactweb/static/media/IropkeBatangM.7f75e2717e97c7491206.otf",
+    "static/media/banner01.jpg": "/reactweb/static/media/banner01.1f74a32c3ab109635f0d.jpg",
+    "static/media/04-2.jpg": "/reactweb/static/media/04-2.4853aa26d5c447f7d7ed.jpg",
+    "static/media/04-3.jpg": "/reactweb/static/media/04-3.61e3b7c4f630df22335f.jpg",
+    "static/media/banner02.jpg": "/reactweb/static/media/banner02.77e1eaca7ecc74e21936.jpg",
+    "static/media/04-1.jpg": "/reactweb/static/media/04-1.0eda07bc922c8be94b50.jpg",
+    "static/media/remixicon.woff2": "/reactweb/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "index.html": "/reactweb/index.html",
+    "main.c9245e0e.css.map": "/reactweb/static/css/main.c9245e0e.css.map",
+    "main.0b55e46a.js.map": "/reactweb/static/js/main.0b55e46a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8027dd07.css",
-    "static/js/main.56fa0ffe.js"
+    "static/css/main.c9245e0e.css",
+    "static/js/main.0b55e46a.js"
   ]
 }
