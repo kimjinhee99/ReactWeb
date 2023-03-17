@@ -9,6 +9,7 @@ import Element from "./Element";
 import Shop from "./Shop";
 import { useEffect, useState } from "react";
 
+
 const Nav = styled.div`
   font-family: 'IropkeBatang';
   background-color: transparent;
@@ -33,7 +34,7 @@ const Nav = styled.div`
   }
 
   .container {
-    width: 80%; height: 80px;
+    width: 85%; height: 5vw;
     margin: 0 auto;
 
     display: flex;
@@ -42,16 +43,16 @@ const Nav = styled.div`
     position: relative;
   }
   .container h1 {
-    margin-right: 3rem;
+    margin-right: 2.8vw;
     position: relative;
     a{
       display: flex;
       align-items: center;
-      height: 33px;
+      height: 2vw;
     }
   }
   .container h1 img {
-    height: 80px;
+    height: 2.2vw;
     display: block;
     vertical-align: middle;
     max-width: 100%;
@@ -59,16 +60,16 @@ const Nav = styled.div`
   }
   .container h2 {
     display: none;
-    margin-right: 3rem;
+    margin-right: 2.8vw;
     position: relative;
     a {
       display: flex;
       align-items: center;
-      height: 33px;
+      height: 2vw;
     }
   }
   .container h2 img {
-    height: 80px;
+    height: 2.2vw;
     vertical-align: middle;
     max-width: 100%;
     max-height: 100%;
@@ -83,21 +84,21 @@ const Nav = styled.div`
     position: relative;
   }
   .gnb li a, .registory li a {
-    font-size: 1.1rem;
+    font-size: 1.2vw;
     font-weight: 500;
     color: #f7f7f7;
     line-height: 22px;
     letter-spacing: 1px;
     text-transform: uppercase;
     display: block;
-    padding: 29px 15px;
+    padding: 1vw;
   }
   .gnb li a:hover, .registory li a:hover {
     background-color: #fe6666;
   }
   .sub_menu {
     display: none;
-    width: 220px;
+    width: 14vw;
     position: absolute;
     top: 100%; left: 0;
     background-color: #fff;
@@ -107,15 +108,15 @@ const Nav = styled.div`
   .sub_menu li a {
     display: block;
     color: #666;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.1vw;
     transition: all .2s ease-in-out;
   }
   .sub_menu li a:hover {
     background-color: #f9f9f9;
-    padding-left: 15px;
+    padding-left: 1vw;
     color: #fe6666;
   }
   .gnb li:hover .sub_menu {
@@ -130,6 +131,8 @@ const Nav = styled.div`
   }
 `;
 
+const path = process.env.PUBLIC_URL;
+
 function NavMenu(props) {
 
 // 스크롤 이벤트
@@ -143,11 +146,12 @@ useEffect(() => {
 },[]);
 
   return (
+    <>
     <BrowserRouter>
     <Nav className={scrollPosition > 100 ? "scroll-text" : "scrolled-text"}>
       <div className="container">
-        <h1><a href="#"><img src={"./images/logo-dark.png"} alt="white_logo" /></a></h1>
-        <h2><a href="#"><img src={"./images/logo.png"} alt="black_logo" /></a></h2>
+        <h1><a href="#"><img src={path + "/images/logo-dark.png"} alt="white_logo" /></a></h1>
+        <h2><a href="#"><img src={path + "/images/logo.png"} alt="black_logo" /></a></h2>
       
         <ul className="gnb">
           <li>
@@ -221,7 +225,7 @@ useEffect(() => {
     </Nav>
 
     {/* 화면에 보이는 영역 */}
-    {/* <Routes>
+    <Routes>
       <Route path="/about" element={ <About />} />
       <Route path="/service" element={<Service />} />
       <Route path="/portfolio" element={<Portfolio />} />
@@ -229,8 +233,9 @@ useEffect(() => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/element" element={<Element />} />
       <Route path="/shop" element={<Shop />} />
-    </Routes> */}
+    </Routes>
     </BrowserRouter>
+    </>
   );
 }
 

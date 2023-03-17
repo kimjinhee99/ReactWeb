@@ -1,18 +1,23 @@
 import MainContentsItem from './MainContentsItem';
 import styled from 'styled-components';
 
+import contentImg1 from '../assets/images/04-1.jpg';
+import contentImg2 from '../assets/images/04-2.jpg';
+import contentImg3 from '../assets/images/04-3.jpg';
+
 const MainContents = styled.div`
   font-family: 'IropkeBatang';
-  padding: 144px;
+  padding: 7vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  // justify-content: space-around;
   box-sizing: border-box;
   
   .mainContentsList {
-    height: 60vh; width: 31.8%;
-    margin-right: 12px;
-    margin-left: 12px;
+    height: 60vh;
+    width: 32%;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
@@ -70,13 +75,13 @@ const MainContents = styled.div`
       box-sizing: border-box;
     }
     &:nth-child(1) .gridInnerImage {
-      background: url(./images/04-1.jpg) no-repeat 50% 50% / cover;
+      background: url(${contentImg1}) no-repeat 50% 50% / cover;
     }
     &:nth-child(2) .gridInnerImage {
-      background: url(./images/04-2.jpg) no-repeat 50% 50% / cover;
+      background: url(${contentImg2}) no-repeat 50% 50% / cover;
     }
     &:nth-child(3) .gridInnerImage {
-      background: url(./images/04-3.jpg) no-repeat 50% 50% / cover;
+      background: url(${contentImg3}) no-repeat 50% 50% / cover;
     }
     .bgOverlay {
         position: absolute;
@@ -85,6 +90,15 @@ const MainContents = styled.div`
         top: 0;
         left: 0;
         overflow: hidden;
+        
+        .imageBg {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0,0,0,0.2);
+          z-index: 1;
+        }
 
         .overlayContents {
           position: absolute;
@@ -93,42 +107,45 @@ const MainContents = styled.div`
           top: 0;
           left: 0;
           overflow: hidden;
-          padding: 3rem;
+          padding: 3vw;
           display: flex;
           flex-direction: column-reverse;
           align-items: flex-start;
           justify-content: space-between;
           box-sizing: border-box;
+          z-index: 9;
 
           .contentsTxt {
             transition: all .3s ease;
 
             span {
               display: block;
-              margin-top: 15px;
+              margin-top: 1vw;
               position: absolute;
               transform: translateY(0);
               color: #fff;
-              font-size: 1.5rem;
+              font-size: 1.5vw;
               font-weight: 400;
               line-height: 1.5;
               margin: 15px 0 18px 0;
               opacity: 0;
+              cursor: pointer;
             }
             h1 {
               color: #eee;
               font-family: 'Lato', sans-serif;
-              font-size: 80%;
+              font-size: 1vw;
               font-weight: 500;
               letter-spacing: 1px;
               text-transform: uppercase;
               margin-bottom: 0.5rem;
             }
             h2 {
-              font-size: 1.75rem;
+              font-size: 2.5vw;
+              font-weight: 700;
               text-transform: capitalize;
               line-height: 1.5;
-              margin: 0 0 18px 0;
+              margin: 0 0 1.2vw 0;
               color: #fe6666;
             }
           }

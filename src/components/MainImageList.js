@@ -12,7 +12,7 @@ import { Navigation, Pagination, Autoplay } from "swiper";
 
 const MainListImage = styled.div`
   font-family: 'IropkeBatang';
-  padding: 144px;
+  padding: 8vw;
   position: relative;
   width: 100%;
   display: flex;
@@ -21,23 +21,21 @@ const MainListImage = styled.div`
   z-index: 3;
 
   h1 {
-    font-size: 4rem;
+    font-size: 4.2vw;
     font-weight: 700;
     font-family: 'Roboto Flex', sans-serif;
     text-transform: uppercase;
-    margin: 0 47px 3rem;
+    margin-bottom: 3vw;
+    margin-left: 0;
     line-height: 1.2;
   }
   .ImageListBox {
     width: 100%;
-    padding-right: 12px;
-    padding-left: 12px;
     box-sizing: border-box;
 
     .imageList {
-      padding-top: 2rem;
+      padding-top: 2vw;
       position: relative;
-      margin-right: 60px;
 
       .swiper-slide {
         img {
@@ -52,16 +50,22 @@ const MainListImage = styled.div`
         overflow: hidden;
 
         &:hover .bgOverlayBg {
+          position: absolute;
+          width: 100%;
+          height: 75%;
           background-color: rgba(255,255,255,0.85);
+          transition: 1s;
+          z-index: 1;
         }
         .bgOverayIcon {
           position: absolute;
-          top: 35%; left: 45%;
+          top: 33%; left: 42%;
+          z-index: 9;
           a {
             display: block;
-            font-size: 18px;
-            width: 68px; height: 68px;
-            line-height: 73px;
+            font-size: 1.2vw;
+            width: 4vw; height: 4vw;
+            line-height: 4.5vw;
             border-radius: 50%;
             color: #fff;
             background-color: rgba(0, 0, 0, 0.7);
@@ -74,38 +78,37 @@ const MainListImage = styled.div`
             background-color: #fe6666;
             }
           }
-         
         }
       }
       .imageListTxt {
         position: relative;
-        padding: 20px 5px;
+        padding: 1vw 0.5vw;
         text-align: center;
-        padding-top: 1.5rem;
-        padding-right: 3rem;
-        padding-left: 3rem;
+        padding-top: 1.5vw;
+        padding-right: 3vw;
+        padding-left: 3vw;
 
         h1 {
-          font-size: 1.25rem;
+          font-size: 1.3vw;
           font-weight: 400;
           margin: 0;
         }
         p {
-          font-size: 18px;
+          font-size: 1.2vw;
           line-height: 1.8;
           opacity: 0.6;
-          padding-top: 0.5rem;
+          padding-top: 0.5vw;
         }
       }
     }
   }
   .swiper-button-prev {
     position: absolute;
-    top: 50%; left: -18px;
+    top: 40%; left: -18px;
     text-align: center;
-    width: 36px ;height: 36px;
+    width: 2.5vw ;height: 2.5vw;
     line-height: 36px;
-    font-size: 18px;
+    font-size: 1.2vw;
     color: #666;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -119,16 +122,16 @@ const MainListImage = styled.div`
     }
   }
   .swiper-button-prev::after {
-    font-size: 5px;
+    font-size: 0.8vw;
     font-weight: bold;
   }
   .swiper-button-next {
     position: absolute;
-    top: 50%; right: -18px;
+    top: 40%; right: -18px;
     text-align: center;
-    width: 36px ;height: 36px;
+    width: 2.5vw ;height: 2.5vw;
     line-height: 36px;
-    font-size: 18px;
+    font-size: 1.2vw;
     color: #666;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -141,18 +144,16 @@ const MainListImage = styled.div`
     }
   }
   .swiper-button-next::after {
-    font-size: 5px;
+    font-size: 0.8vw;
     font-weight: bold;
-  }
-  .swiper-pagination {
   }
   .swiper-pagination-bullet{
     background-color: #fe6666;
-    margin: 30px 4px 0 4px;
+    margin: 2vw 4px 0 4px;
   }
   .swiper {
     position: unset;
-    padding-bottom: 50px;
+    padding-bottom: 5vw;
   }
 `;
 

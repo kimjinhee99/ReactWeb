@@ -17,6 +17,7 @@ function MainContentsItem({item}) {
               <span><FaArrowRight /></span>
             </div>
           </div>
+          <div className="imageBg"></div>
         </div>
       </div>
     </div>

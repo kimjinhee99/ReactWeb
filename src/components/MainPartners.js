@@ -9,18 +9,16 @@ import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper";
 
 const PartnersMain = styled.div`
-  padding: 144px;
+  padding: 8vw;
   background-color: rgb(248, 249, 250);
   box-sizing: border-box;
   position: relative;
   
   h1 {
-    padding-right: 12px;
-    padding-left: 12px;
-    font-size: 4rem;
+    font-size: 4.3vw;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 700;
-    margin-bottom: 3rem;
+    margin-bottom: 3vw;
     line-height: 1.2;
     text-transform: capitalize;
   }
@@ -34,8 +32,7 @@ const PartnersMain = styled.div`
     overflow: hidden;
     
     a {
-      width: 169.5px;
-      margin-right: 20px;
+      width: 9vw;
       float: left;
 
       img {
@@ -45,11 +42,11 @@ const PartnersMain = styled.div`
   }
   .swiper-button-prev {
     position: absolute;
-    top: 62%; left: 130px;
+    top: 62%; left: 7vw;
     text-align: center;
-    width: 36px ;height: 36px;
+    width: 2.2vw ;height: 2.2vw;
     line-height: 36px;
-    font-size: 18px;
+    font-size: 1.2vw;
     color: #666;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -62,16 +59,16 @@ const PartnersMain = styled.div`
     }
   }
   .swiper-button-prev::after {
-    font-size: 5px;
+    font-size: 0.6vw;
     font-weight: bold;
   }
   .swiper-button-next {
     position: absolute;
-    top: 62%; right: 130px;
+    top: 62%; right: 7vw;
     text-align: center;
-    width: 36px ;height: 36px;
+    width: 2.2vw ;height: 2.2vw;
     line-height: 36px;
-    font-size: 18px;
+    font-size: 1.2vw;
     color: #666;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -84,15 +81,14 @@ const PartnersMain = styled.div`
     }
   }
   .swiper-button-next::after {
-    font-size: 5px;
+    font-size: 0.6vw;
     font-weight: bold;
   }
   .swiper-pagination {
-    margin-bottom: 90px;
+    margin-bottom: 5vw;
   }
   .swiper-pagination-bullet{
     background-color: #fe6666;
-    margin: 30px 4px 0 4px;
   }
 `;
 

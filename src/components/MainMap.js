@@ -15,7 +15,7 @@ const Map = styled.div`
     align-items: stretch;
 
     .iconBox {
-      padding: 144px;
+      padding: 6vw;
       width: 25%;
       position: relative;
       display: flex;
@@ -36,13 +36,13 @@ const Map = styled.div`
       }
       span {
         display: block;
-        width: 7.5rem; height: 6rem;
+        width: 7.5vw; height: 6vw;
         color: #fe6666;
-        margin-bottom: 1.5rem;
-        padding: 0 0.75rem;
+        margin-bottom: 1.5vw;
+        padding: 0 0.75vw;
       }
       .symbolMapIcon {
-        font-size: 4.5rem;
+        font-size: 4.5vw;
         font-weight: bold;
       }
       .mapIconTxt {
@@ -53,15 +53,15 @@ const Map = styled.div`
         h1 {
           font-weight: 600;
           color: #333;
-          font-size: 28px;
+          font-size: 1.8vw;
           line-height: 1.5;
           text-transform: uppercase;
         }
         p {
-          font-size: 18px;
+          font-size: 1.2vw;
           font-weight: 400;
           line-height: 1.8;
-          margin-top: 0.5rem;
+          margin-top: 0.3vw;
           text-transform: capitalize;
         }
       }

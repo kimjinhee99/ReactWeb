@@ -16,6 +16,9 @@ import MainMap from "./components/MainMap";
 import KakaoMap from "./components/KakaoMap";
 import Footer from "./components/Footer";
 
+import {BrowserRouter, Link, Route, Routes,useNavigate } from 'react-router-dom';
+
+
 function Main(props) {
   return (
     <div>
@@ -42,7 +45,7 @@ function Main(props) {
       {/* kakaomap */}
       <KakaoMap />
       {/* footer */}
-      <Footer />
+      <Footer />  
     </div>
   );
 }
